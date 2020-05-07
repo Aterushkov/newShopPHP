@@ -6,5 +6,5 @@ require_once CONF . '/routes.php';
 new \tavshop\App();
 
 //  debug(\tavshop\App::$app->getProperties());
-debug(\tavshop\Router::getRoutes());
+// debug(\tavshop\Router::getRoutes());
 // throw new Exception('Страница не найдена', 404);
