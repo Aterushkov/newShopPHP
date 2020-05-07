@@ -1,0 +1,9 @@
+{
+  "autoload":{
+    "psr-4":{
+      "tavshop\\":"vendor/tavshop/core",
+      "app\\":"app"
+    }
+  },
+  "require": {}
+}
