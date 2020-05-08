@@ -1,8 +1,9 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>error 404</title>
+<title>Шаблон по default</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<?= $this->getMeta();?>
 <link href='//fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
 <style type="text/css">
 body{
