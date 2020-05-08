@@ -163,11 +163,8 @@ body{
 <body>
 	<div class="wrap">
 	   <div class="logo">
-	   <h1>Ошибка</h1>
-      <p>Код ошибки: <?= $errno?></p>
-      <p>Текст ошибки: <?= $errstr?></p>
-      <p>Файл, в котором произошла ошибка: <?= $errfile?></p>
-      <p>Строка, в которой произошла ошибка: <?= $errline?></p>
+	   <h1>Шаблон по Main</h1>
+	    <p>текст</p>
   	      <div class="sub">
 	        <p><a href="<?=PATH;?>">Back</a></p>
 	      </div>

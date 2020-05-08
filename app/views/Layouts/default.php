@@ -164,7 +164,7 @@ body{
 	<div class="wrap">
 	   <div class="logo">
 	   <h1>Шаблон по default</h1>
-	    <p>текст</p>
+	    <p></p>
   	      <div class="sub">
 	        <p><a href="<?=PATH;?>">Back</a></p>
 	      </div>
@@ -173,5 +173,5 @@ body{
 	
 	<div class="footer">
 	</div>
-	
+	<?=$content?>
 </body>

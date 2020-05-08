@@ -6,8 +6,8 @@ class MainController extends AppController{
 
 
   public function indexAction(){   
-    debug($this->route);
-    debug($this->controller);
-    echo __METHOD__;
+    $this->route;
+    $this->controller;
+    // echo __METHOD__;
   }
 }

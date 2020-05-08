@@ -12,3 +12,17 @@
 -------------------------
 [2020-05-08 07:47:52] Текст ошибки: Страница не найдена| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:36
 -------------------------
+[2020-05-08 11:23:20] Текст ошибки: syntax error, unexpected '}', expecting ',' or ';'| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\base\View.php| Строка:32
+-------------------------
+[2020-05-08 12:03:08] Текст ошибки: Class 'Exeption' not found| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\base\View.php| Строка:43
+-------------------------
+[2020-05-08 12:04:51] Текст ошибки: Class 'Exeption' not found| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\base\View.php| Строка:43
+-------------------------
+[2020-05-08 12:05:39] Текст ошибки: Class 'Exeption' not found| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\base\View.php| Строка:43
+-------------------------
+[2020-05-08 12:06:57] Текст ошибки: Не найден шаблон default| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\base\View.php| Строка:43
+-------------------------
+[2020-05-08 12:08:44] Текст ошибки: Не найден шаблон default| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\base\View.php| Строка:44
+-------------------------
+[2020-05-08 12:10:28] Текст ошибки: Не найден шаблон default| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\base\View.php| Строка:44
+-------------------------
