@@ -10,3 +10,5 @@
 -------------------------
 [2020-05-07 22:17:05] Текст ошибки: Метод app\controllers\PageController::indexAction не найден| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:30
 -------------------------
+[2020-05-08 07:47:52] Текст ошибки: Страница не найдена| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:36
+-------------------------
