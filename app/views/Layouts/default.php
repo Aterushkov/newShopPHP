@@ -175,4 +175,11 @@ body{
 	<div class="footer">
 	</div>
 	<?=$content?>
+<?
+	$logs = \R::getDatabaseAdapter()
+            ->getDatabase()
+            ->getLogger();
+
+		debug( $logs->grep( 'SELECT' ) );
+		?>
 </body>

@@ -26,3 +26,55 @@
 -------------------------
 [2020-05-08 12:10:28] Текст ошибки: Не найден шаблон default| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\base\View.php| Строка:44
 -------------------------
+[2020-05-09 12:52:31] Текст ошибки: Страница не найдена| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:37
+-------------------------
+[2020-05-09 13:34:02] Текст ошибки: Class 'app\controllers\AppModel' not found| Файл: C:\OSPanel\domains\shopnew\app\controllers\AppController.php| Строка:10
+-------------------------
+[2020-05-09 13:34:32] Текст ошибки: Class 'app\base\AppModel' not found| Файл: C:\OSPanel\domains\shopnew\app\controllers\AppController.php| Строка:11
+-------------------------
+[2020-05-09 13:34:33] Текст ошибки: Class 'app\base\AppModel' not found| Файл: C:\OSPanel\domains\shopnew\app\controllers\AppController.php| Строка:11
+-------------------------
+[2020-05-09 13:34:34] Текст ошибки: Class 'app\base\AppModel' not found| Файл: C:\OSPanel\domains\shopnew\app\controllers\AppController.php| Строка:11
+-------------------------
+[2020-05-09 13:34:45] Текст ошибки: Class 'app\models\AppModel' not found| Файл: C:\OSPanel\domains\shopnew\app\controllers\AppController.php| Строка:11
+-------------------------
+[2020-05-09 13:35:18] Текст ошибки: Class 'app\models\AppModel' not found| Файл: C:\OSPanel\domains\shopnew\app\controllers\AppController.php| Строка:11
+-------------------------
+[2020-05-09 13:35:21] Текст ошибки: Class 'app\models\AppModel' not found| Файл: C:\OSPanel\domains\shopnew\app\controllers\AppController.php| Строка:11
+-------------------------
+[2020-05-09 13:35:22] Текст ошибки: Class 'app\models\AppModel' not found| Файл: C:\OSPanel\domains\shopnew\app\controllers\AppController.php| Строка:11
+-------------------------
+[2020-05-09 13:35:22] Текст ошибки: Class 'app\models\AppModel' not found| Файл: C:\OSPanel\domains\shopnew\app\controllers\AppController.php| Строка:11
+-------------------------
+[2020-05-09 13:36:09] Текст ошибки: Class 'tavshop\base\Db' not found| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\base\Model.php| Строка:12
+-------------------------
+[2020-05-09 13:36:10] Текст ошибки: Class 'tavshop\base\Db' not found| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\base\Model.php| Строка:12
+-------------------------
+[2020-05-09 13:36:49] Текст ошибки: Class 'R' not found| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Db.php| Строка:12
+-------------------------
+[2020-05-09 13:37:51] Текст ошибки: Class 'Exceprion' not found| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Db.php| Строка:15
+-------------------------
+[2020-05-09 13:38:17] Текст ошибки: Class 'Exceprion' not found| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Db.php| Строка:15
+-------------------------
+[2020-05-09 13:38:32] Текст ошибки: Class 'Exceprion' not found| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Db.php| Строка:14
+-------------------------
+[2020-05-09 13:39:43] Текст ошибки: Class 'Exceprion' not found| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Db.php| Строка:14
+-------------------------
+[2020-05-09 13:39:52] Текст ошибки: Class 'Exceprion' not found| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Db.php| Строка:14
+-------------------------
+[2020-05-09 13:40:11] Текст ошибки: Нет соединения с базой данных| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Db.php| Строка:14
+-------------------------
+[2020-05-09 13:40:42] Текст ошибки: Нет соединения с базой данных| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Db.php| Строка:14
+-------------------------
+[2020-05-09 13:46:46] Текст ошибки: Class 'app\controllers\R' not found| Файл: C:\OSPanel\domains\shopnew\app\controllers\MainController.php| Строка:9
+-------------------------
+[2020-05-09 13:47:22] Текст ошибки: Class 'app\controllers\R' not found| Файл: C:\OSPanel\domains\shopnew\app\controllers\MainController.php| Строка:9
+-------------------------
+[2020-05-09 13:48:46] Текст ошибки: Class 'app\controllers\R' not found| Файл: C:\OSPanel\domains\shopnew\app\controllers\MainController.php| Строка:9
+-------------------------
+[2020-05-09 13:48:48] Текст ошибки: Class 'app\controllers\R' not found| Файл: C:\OSPanel\domains\shopnew\app\controllers\MainController.php| Строка:9
+-------------------------
+[2020-05-09 13:49:55] Текст ошибки: Class 'tavshop\R' not found| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Db.php| Строка:13
+-------------------------
+[2020-05-09 13:51:23] Текст ошибки: Class 'tavshop\R' not found| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Db.php| Строка:13
+-------------------------

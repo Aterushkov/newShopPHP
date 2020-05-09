@@ -6,10 +6,9 @@ class MainController extends AppController{
 
 
   public function indexAction(){   
-    // $this->route;
-    // $this->controller;
+    $posts = \R::findAll('test');
     $this->setMeta('Главная страница', 'Описание главное страницы', 'Ключи главной страницы');
-    $this->set(['name'=>'Имя', 'age'=>30]);
+    $this->set(compact(['posts']));
   }
   
 }
