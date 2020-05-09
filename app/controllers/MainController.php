@@ -19,6 +19,7 @@ class MainController extends AppController{
     }
     
     debug($data);
+    
 
     $this->set(compact(['posts']));
   }
