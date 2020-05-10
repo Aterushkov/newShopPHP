@@ -14,3 +14,13 @@
 -------------------------
 [2020-05-09 15:24:40] Текст ошибки: Call to undefined function tavshop\unlinc()| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Cache.php| Строка:37
 -------------------------
+[2020-05-10 12:55:35] Текст ошибки: Нет соединения с базой данных| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Db.php| Строка:15
+-------------------------
+[2020-05-10 12:55:37] Текст ошибки: Страница не найдена| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-05-10 13:07:14] Текст ошибки: Не найден шаблон Shop| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\base\View.php| Строка:45
+-------------------------
+[2020-05-10 13:07:23] Текст ошибки: Не найден шаблон shop| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\base\View.php| Строка:45
+-------------------------
+[2020-05-10 13:14:47] Текст ошибки: Страница не найдена| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:38
+-------------------------

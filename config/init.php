@@ -7,7 +7,8 @@ define("CORE", ROOT . '/vendor/tavshop/core');
 define("LIBS", ROOT . '/vendor/tavshop/core/libs');
 define("CACHE", ROOT . '/tmp/cache');
 define("CONF", ROOT . '/config');
-define("LAYOUT", 'default');
+define("LAYOUT", 'shop');
+
 $app_path = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}";
 $app_path = preg_replace("#[^/]+$#", '', $app_path);
 $app_path = str_replace("/public/", '', $app_path);
