@@ -56,3 +56,15 @@
 -------------------------
 [2020-05-10 22:28:40] Текст ошибки: Too few arguments to function tavshop\Registry::setProperty(), 1 passed in C:\OSPanel\domains\shopnew\app\controllers\AppController.php on line 16 and exactly 2 expected| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Registry.php| Строка:10
 -------------------------
+[2020-05-15 07:09:22] Текст ошибки: Страница не найдена| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-05-15 07:14:33] Текст ошибки: Страница не найдена| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-05-15 07:14:34] Текст ошибки: Страница не найдена| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-05-15 07:17:18] Текст ошибки: Страница не найдена| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-05-15 07:17:19] Текст ошибки: Страница не найдена| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-05-15 07:17:21] Текст ошибки: Страница не найдена| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:38
+-------------------------

@@ -41,7 +41,8 @@
   <? endif;?>
 	<!--about-end-->
   <!--product-starts-->
-  <? if($hits):?>
+	<? if($hits):?>
+		<? $curr = \tavshop\App::$app->getProperty('currency');?>
 	<div class="product"> 
 		<div class="container">
 			<div class="product-top">
@@ -53,9 +54,9 @@
 							<div class="product-bottom">
 								<h3><a href="product/<?=$hit->alias;?>"><?=$hit->title;?></a></h3>
 								<p>Explore Now</p>
-                <h4><a class="add-to-cart-link" href="cart/add?id=<?=$hit->id;?>"><i></i></a> <span class=" item_price">$ <?=$hit->price;?></span>
+                <h4><a class="add-to-cart-link" href="cart/add?id=<?=$hit->id;?>"><i></i></a> <span class=" item_price"><?=$curr['symbol_left']." "?><?=$hit->price * $curr['value']?><?=" ".$curr['symbol_right']?></span>
                     <?if($hit->old_price):?>
-                        <small><del><?=$hit->old_price;?></small></del>
+                        <small><del><?=$curr['symbol_left']." "?><?=$hit->old_price* $curr['value']?><?=" ".$curr['symbol_right']?></small></del>
                     <? endif; ?>
               </h4>
 							</div>
