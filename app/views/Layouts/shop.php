@@ -60,8 +60,13 @@
 		<div class="container">
 			<div class="header">
 				<div class="col-md-9 header-left">
-				<div class="top-nav">
-					<ul class="memenu skyblue"><li class="active"><a href="/index.html">Home</a></li>
+					<div class="menu">
+							<? new \app\widgets\menu\Menu([
+									'tpl' => WWW . '/nemu/nemu.php',
+							]);?>
+					</div>
+				<!--	<div class="top-nav">
+					 <ul class="memenu skyblue"><li class="active"><a href="/index.html">Home</a></li>
 						<li class="grid"><a href="/#">Men</a>
 							<div class="mepanel">
 								<div class="row">
@@ -195,9 +200,9 @@
 						</li>
 						<li class="grid"><a href="/contact.html">Contact</a>
 						</li>
-					</ul>
-				</div>
-				<div class="clearfix"> </div>
+					</ul> 
+				</div>-->
+				<div class="clearfix"> </div.meu>
 			</div>
 			<div class="col-md-3 header-right"> 
 				<div class="search-bar">
