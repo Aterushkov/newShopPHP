@@ -2,6 +2,8 @@
 
 use tavshop\Router;
 
+Router::add('^product/(?P<alias>[a-z0-9-]+)/?$',['controller' =>'Product', 'action' => 'view']);
+
 // default routes admin
 Router::add('^admintav$',['controller' =>'Main', 'action' => 'index', 'prefix' =>'admintav']);
 Router::add('^admintav/?(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$', ['prefix' =>'admintav']);
