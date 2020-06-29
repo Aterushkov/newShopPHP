@@ -120,3 +120,5 @@
 -------------------------
 [2020-06-06 20:45:51] Текст ошибки: контроллер app\controllers\CategoryController не найден| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:35
 -------------------------
+[2020-06-06 22:36:53] Текст ошибки: Страница не найдена| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
