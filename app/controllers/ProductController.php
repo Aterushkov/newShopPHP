@@ -18,11 +18,13 @@ class ProductController extends AppController{
     }
 
     // debug($product);
-        // хлебные крошки
-        // Связанные товары
-        // Просмотренные товары запись в кукки
-        // модификаторы цвета
+    // хлебные крошки
+    // Связанные товары
+    $related = \R::getAll("SELECT * FROM related_product JOIN product ON product.id = related_product.related_id WHERE related_product.product_id = ?",[$product->id]);
+    
+    // Просмотренные товары запись в кукки
+    // модификаторы цвета
         $this->setMeta($product->title, $product->description, $product->keywords);
-        $this->set(compact('product'));
+        $this->set(compact('product', 'related'));
   }
 }

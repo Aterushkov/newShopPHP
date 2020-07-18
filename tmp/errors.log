@@ -190,3 +190,27 @@
 -------------------------
 [2020-06-29 15:18:38] Текст ошибки: syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'| Файл: C:\OSPanel\domains\shopnew\app\controllers\ProductController.php| Строка:26
 -------------------------
+[2020-06-29 16:45:57] Текст ошибки: Страница не найдена| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-07-18 17:16:19] Текст ошибки: Нет соединения с базой данных| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Db.php| Строка:15
+-------------------------
+[2020-07-18 17:16:59] Текст ошибки: Нет соединения с базой данных| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Db.php| Строка:15
+-------------------------
+[2020-07-18 17:17:39] Текст ошибки: Нет соединения с базой данных| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Db.php| Строка:15
+-------------------------
+[2020-07-18 17:18:08] Текст ошибки: Нет соединения с базой данных| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Db.php| Строка:15
+-------------------------
+[2020-07-18 17:18:09] Текст ошибки: Нет соединения с базой данных| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Db.php| Строка:15
+-------------------------
+[2020-07-18 17:18:59] Текст ошибки: Нет соединения с базой данных| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Db.php| Строка:15
+-------------------------
+[2020-07-18 17:55:27] Текст ошибки: syntax error, unexpected '$tcat' (T_VARIABLE)| Файл: C:\OSPanel\domains\shopnew\app\views\Product\view.php| Строка:4
+-------------------------
+[2020-07-18 17:57:52] Текст ошибки: контроллер app\controllers\CategoryController не найден| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:35
+-------------------------
+[2020-07-18 18:04:21] Текст ошибки: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'| Файл: C:\OSPanel\domains\shopnew\app\views\Product\view.php| Строка:93
+-------------------------
+[2020-07-18 18:06:02] Текст ошибки: контроллер app\controllers\CartController не найден| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:35
+-------------------------
+[2020-07-18 19:38:25] Текст ошибки: Страница не найдена| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
