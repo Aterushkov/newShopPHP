@@ -23,19 +23,25 @@ $tcat = $cats[$product->category_id]['title'];?>
 				<div class="col-md-9 single-main-left">
 				<div class="sngl-top">
 					<div class="col-md-5 single-top-left">	
+						<? if($gallery):?>
 						<div class="flexslider">
 							  <ul class="slides">
-								<li data-thumb="images/s-1.jpg">
-									<div class="thumb-image"> <img src="images/s-1.jpg" data-imagezoom="true" class="img-responsive" alt=""/> </div>
-								</li>
-								<li data-thumb="images/s-2.jpg">
-									 <div class="thumb-image"> <img src="images/s-2.jpg" data-imagezoom="true" class="img-responsive" alt=""/> </div>
-								</li>
-								<li data-thumb="images/s-3.jpg">
-								   <div class="thumb-image"> <img src="images/s-3.jpg" data-imagezoom="true" class="img-responsive" alt=""/> </div>
-								</li> 
+									<? foreach ($gallery as $key ):?>
+									<li data-thumb="images/<?=$key->img?>">
+										<div class="thumb-image"> <img src="images/<?=$key->img?>" data-imagezoom="true" class="img-responsive" alt="<?=$key->img?>"/> </div>
+									</li>
+									<? endforeach?>
 							  </ul>
 						</div>
+								<? else:?>
+								<div class="flexslider">
+									<ul class="slides">		
+										<li data-thumb="images/<?=$product->img?>">
+											<div class="thumb-image"> <img src="images/<?=$product->img?>"alt="<?=$product->img?>"/> </div>
+										</li>
+									</ul>
+								</div>
+						<? endif;?>
 						<!-- FlexSlider -->
 					</div>	
 
