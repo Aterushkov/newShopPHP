@@ -8,8 +8,9 @@ $tcat = $cats[$product->category_id]['title'];?>
 		<div class="container">
 			<div class="breadcrumbs-main">
 				<ol class="breadcrumb">
-					<li><a href="index.html">Home</a></li>
-					<li class="active">Single</li>
+					<!-- <li><a href="index.html">Home</a></li>
+					<li class="active">Single</li> -->
+					<?=$breadcrumbs;?>
 				</ol>
 			</div>
 		</div>
@@ -145,6 +146,35 @@ $tcat = $cats[$product->category_id]['title'];?>
 					<div class="product-one">
 						<h3>Товары похожие на этот</h3>
 						<? foreach ($related as $item):?>
+						<div class="col-md-4 product-left p-left"> 
+							<div class="product-main simpleCart_shelfItem">
+								<a href="product/<?=$item['alias']?>" class="mask"><img class="img-responsive zoom-img" src="images/<?=$item['img']?>" alt="<?=$item['alias']?>" /></a>
+								<div class="product-bottom">
+									<h3><a href="product/<?=$item['alias']?>"><?=$item['title']?></a></h3>
+									<p>Explore Now</p>
+									<h4><a class="item_add add-to-cart-link" href="cart/add?id=<?=$item['id'];?>" data-id="<?=$item['id'];?>"><i></i></a> 
+									<span class=" item_price">
+											<?=$curr['symbol_left']." "?><?=$item['price'] * $curr['value']?><?=" ".$curr['symbol_right']?>
+										<?if($item['old_price']):?>
+											<small><del><?=$curr['symbol_left']." "?><?=$item['old_price'] * $curr['value']?><?=" ".$curr['symbol_right']?></small></del>
+										<? endif; ?>
+									</span></h4>
+								</div>
+								<div class="srch">
+									<span>-50%</span>
+								</div>
+							</div>
+						</div>
+						<? endforeach;?>
+						<div class="clearfix"></div>
+					</div>
+				<? endif;?>
+
+				<? if($recentlyViewed):?>
+				<div class="latestproducts">
+					<div class="product-one">
+						<h3>Ранее вы смотрели:</h3>
+						<? foreach ($recentlyViewed as $item):?>
 						<div class="col-md-4 product-left p-left"> 
 							<div class="product-main simpleCart_shelfItem">
 								<a href="product/<?=$item['alias']?>" class="mask"><img class="img-responsive zoom-img" src="images/<?=$item['img']?>" alt="<?=$item['alias']?>" /></a>

@@ -218,3 +218,37 @@
 -------------------------
 [2020-07-18 21:34:08] Текст ошибки: контроллер app\controllers\FalseController не найден| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:35
 -------------------------
+[2020-08-10 19:18:28] Текст ошибки: Страница не найдена| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-08-10 19:18:39] Текст ошибки: Страница не найдена| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-08-10 19:30:20] Текст ошибки: Страница не найдена| Файл: C:\OSPanel\domains\shopnew\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-08-10 19:31:10] Текст ошибки: Class 'app\controllers\Product' not found| Файл: C:\OSPanel\domains\shopnew\app\controllers\ProductController.php| Строка:20
+-------------------------
+[2020-08-10 19:33:24] Текст ошибки: Class 'app\controllers\Product' not found| Файл: C:\OSPanel\domains\shopnew\app\controllers\ProductController.php| Строка:20
+-------------------------
+[2020-08-10 19:33:33] Текст ошибки: Class 'app\controllers\Product' not found| Файл: C:\OSPanel\domains\shopnew\app\controllers\ProductController.php| Строка:20
+-------------------------
+[2020-08-10 19:45:09] Текст ошибки: syntax error, unexpected ';'| Файл: C:\OSPanel\domains\shopnew\app\models\Product.php| Строка:14
+-------------------------
+[2020-08-10 20:06:59] Текст ошибки: Expected array, string given.| Файл: C:\OSPanel\domains\shopnew\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php| Строка:194
+-------------------------
+[2020-08-10 20:08:02] Текст ошибки: Expected array, string given.| Файл: C:\OSPanel\domains\shopnew\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php| Строка:194
+-------------------------
+[2020-08-10 20:08:25] Текст ошибки: Expected array, string given.| Файл: C:\OSPanel\domains\shopnew\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php| Строка:194
+-------------------------
+[2020-08-10 20:09:10] Текст ошибки: Expected array, string given.| Файл: C:\OSPanel\domains\shopnew\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php| Строка:194
+-------------------------
+[2020-08-10 20:09:11] Текст ошибки: Expected array, string given.| Файл: C:\OSPanel\domains\shopnew\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php| Строка:194
+-------------------------
+[2020-08-10 20:09:12] Текст ошибки: Expected array, string given.| Файл: C:\OSPanel\domains\shopnew\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php| Строка:194
+-------------------------
+[2020-08-10 20:12:46] Текст ошибки: Expected array, string given.| Файл: C:\OSPanel\domains\shopnew\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php| Строка:194
+-------------------------
+[2020-08-10 20:14:21] Текст ошибки: Expected array, string given.| Файл: C:\OSPanel\domains\shopnew\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php| Строка:194
+-------------------------
+[2020-08-10 20:25:45] Текст ошибки: Cannot use [] for reading| Файл: C:\OSPanel\domains\shopnew\app\controllers\ProductController.php| Строка:29
+-------------------------
+[2020-08-10 20:50:18] Текст ошибки: Class 'app\controllers\Breadcrumbs' not found| Файл: C:\OSPanel\domains\shopnew\app\controllers\ProductController.php| Строка:37
+-------------------------
