@@ -19,7 +19,7 @@
         },
         "time": "2020-05-07T07:48:19+00:00",
         "type": "library",
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "RedBeanPHP\\": "RedBeanPHP"

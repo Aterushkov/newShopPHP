@@ -33,16 +33,19 @@ class ProductController extends AppController{
       
      $recentlyViewed = \R::find('product', 'id IN ('. \R::genSlots($r_viewed) .') LIMIT 3', $r_viewed);
     }
-    // debug($recentlyViewed);
+
     // хлебные крошки
     $breadcrumbs = Breadcrumbs::getBreadcrumbs($product->category_id,$product->title);
     
     //галерея
     $gallery = \R::findAll('gallery','product_id = ?',[$product->id]);
 
-    
+    //Модификации
+      $mods = \R::findAll('modification', 'product_id=  ?', [$product->id]);
+    //debug($mods);
+
     // модификаторы цвета
         $this->setMeta($product->title, $product->description, $product->keywords);
-        $this->set(compact('product', 'related', 'gallery', 'recentlyViewed', 'breadcrumbs'));
+        $this->set(compact('product', 'related', 'gallery', 'recentlyViewed', 'breadcrumbs','mods'));
   }
 }

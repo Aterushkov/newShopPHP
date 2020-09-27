@@ -65,7 +65,7 @@ $tcat = $cats[$product->category_id]['title'];?>
 							<div class="clearfix"> </div>
 							</div> -->
 							
-							<h5 class="item_price"><?=$curr['symbol_left']." "?><?=$product->price * $curr['value']?><?=" ".$curr['symbol_right']?>
+							<h5 class="item_price" id="base-price" data-bace="<?=$product->price * $curr['value']?>"><?=$curr['symbol_left']." "?><?=$product->price * $curr['value']?><?=" ".$curr['symbol_right']?>
 								<?if($product->old_price):?>
 									<small><del><?=$curr['symbol_left']." "?><?=$product->old_price* $curr['value']?><?=" ".$curr['symbol_right']?></small></del>
                 <? endif; ?>
@@ -75,18 +75,11 @@ $tcat = $cats[$product->category_id]['title'];?>
 								<ul>
 									<li>Color
 										<select>
-										<option>Silver</option>
-										<option>Black</option>
-										<option>Dark Black</option>
-										<option>Red</option>
+                                            <option>Выбрать цвет</option>
+                                            <? foreach ($mods as $mod):?>
+                                                <option data-title="<?=$mod->title?>" data-price="<?=$mod->price * $curr['value']?>" value="<?=$mod->id?>"><?=$mod->title?></option>
+                                            <? endforeach ?>
 									</select></li>
-								<li class="size-in">Size<select>
-									<option>Large</option>
-									<option>Medium</option>
-									<option>small</option>
-									<option>Large</option>
-									<option>small</option>
-								</select></li>
 								<div class="clearfix"> </div>
 							</ul>
 						</div>

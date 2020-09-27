@@ -151,6 +151,13 @@
 			</div>
 		</div>
 	</div>
+    <? $curr= \tavshop\App::$app->getProperty('currency');?>
+    <script>
+        let path = '<?=PATH;?>';
+        let course = '<?=$curr['value'];?>';
+        let symbolLeft = '<?=$curr['symbol_left'];?>';
+        let symbolRight = '<?=$curr['symbol_right'];?>';
+    </script>
 	<script src="/js/jquery-1.11.0.min.js"></script>
 	<script src="js/imagezoom.js"></script>
 	<script defer src="js/jquery.flexslider.js"></script>
