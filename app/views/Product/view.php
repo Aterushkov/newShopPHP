@@ -71,6 +71,7 @@ $tcat = $cats[$product->category_id]['title'];?>
                 <? endif; ?>
 							</h5>
 							<?=$product->content;?>
+                            <? if($mods):?>
 							<div class="available">
 								<ul>
 									<li>Color
@@ -78,11 +79,12 @@ $tcat = $cats[$product->category_id]['title'];?>
                                             <option>Выбрать цвет</option>
                                             <? foreach ($mods as $mod):?>
                                                 <option data-title="<?=$mod->title?>" data-price="<?=$mod->price * $curr['value']?>" value="<?=$mod->id?>"><?=$mod->title?></option>
-                                            <? endforeach ?>
+                                            <? endforeach; ?>
 									</select></li>
 								<div class="clearfix"> </div>
 							</ul>
 						</div>
+                            <? endif;?>
 							<ul class="tag-men">
 								<li><span>Category</span>
 								<span class="women1"><a href="category/<?=$acat;?>">: <?=$tcat;?></a></span></li>

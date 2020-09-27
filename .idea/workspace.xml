@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8fe991-4f61-4505-9767-cb83cfa28fd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/CartController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/Layouts/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Layouts/shop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Main/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/Product/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Product/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config_db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/d4861cc16ee07f776f07c63afe3a4791.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/d4861cc16ee07f776f07c63afe3a4791.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tavshop/core/base/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/tavshop/core/base/Controller.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +43,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <branch-grouping />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -58,17 +71,75 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601221207164</updated>
-      <workItem from="1601221210640" duration="3709000" />
+      <workItem from="1601221210640" duration="13160000" />
     </task>
+    <task id="LOCAL-00001" summary="27.09">
+      <created>1601225116035</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601225116035</updated>
+    </task>
+    <task id="LOCAL-00002" summary="27.09">
+      <created>1601225152914</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601225152914</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="27.09" />
+    <option name="LAST_COMMIT_MESSAGE" value="27.09" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1032" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601223446552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1032" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601223446552" />
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1601225150597">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601225150597" />
+    <state x="1207" y="246" key="NewPhpClassDialog" timestamp="1601230964684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1207" y="246" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601230964684" />
+    <state x="1274" y="446" key="NewPhpFileDialog" timestamp="1601230986903">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1274" y="446" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601230986903" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601225540914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601225540914" />
   </component>
 </project>

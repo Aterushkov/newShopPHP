@@ -1,3 +1,27 @@
+// Cart
+$('body').on('click','.add-to-cart-link', function(e){
+  e.preventDefault();
+  let id = $(this).data('id');
+  let gty = $('.quantity input').val() ? $('.quantity input').val() : 1 ;
+  let mod = $('.available select').val();
+
+  $.ajax({
+    url:'/cart/add',
+    data:{id:id, gty:gty,mod:mod},
+    type:'GET',
+    success: function (res){
+      showCart(res);
+    },
+    error: function (){
+      alert("Ошибонька");
+    }
+  })
+});
+
+function showCart(cart){
+ console.log(cart);
+}
+// Cart end
 $('#currency').change(function(){
   window.location = 'currency/change?curr=' + $(this).val();
 });

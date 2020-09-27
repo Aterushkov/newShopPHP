@@ -86,6 +86,7 @@
 	</div>
 	<!--bottom-header-->
 	<div class="content">
+        <?debug($_SESSION)?>
 		<?= $content;?>
 	</div>
 
@@ -161,7 +162,6 @@
 	<script src="/js/jquery-1.11.0.min.js"></script>
 	<script src="js/imagezoom.js"></script>
 	<script defer src="js/jquery.flexslider.js"></script>
-	<script src="/js/simpleCart.min.js"> </script>
 	<script src="/js/jquery.easydropdown.js"></script>	
 		<!--Slider-Starts-Here-->
 		<script src="/js/responsiveslides.min.js"></script>

@@ -328,3 +328,147 @@
 -------------------------
 [2020-09-27 19:19:03] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
 -------------------------
+[2020-09-27 20:31:26] Текст ошибки: контроллер app\controllers\CartController не найден| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:35
+-------------------------
+[2020-09-27 21:00:11] Текст ошибки: Не найден вид C:\OpenServer\domains\newShopPHP/app/views/Cart/add.php| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\base\View.php| Строка:38
+-------------------------
+[2020-09-27 21:36:29] Текст ошибки: Class 'app\models\App' not found| Файл: C:\OpenServer\domains\newShopPHP\app\models\Cart.php| Строка:11
+-------------------------
+[2020-09-27 21:36:38] Текст ошибки: Class 'app\models\App' not found| Файл: C:\OpenServer\domains\newShopPHP\app\models\Cart.php| Строка:11
+-------------------------
+[2020-09-27 21:36:44] Текст ошибки: Class 'app\models\App' not found| Файл: C:\OpenServer\domains\newShopPHP\app\models\Cart.php| Строка:11
+-------------------------
+[2020-09-27 21:38:55] Текст ошибки: Class 'app\models\App' not found| Файл: C:\OpenServer\domains\newShopPHP\app\models\Cart.php| Строка:11
+-------------------------
+[2020-09-27 21:38:59] Текст ошибки: Class 'app\models\App' not found| Файл: C:\OpenServer\domains\newShopPHP\app\models\Cart.php| Строка:11
+-------------------------
+[2020-09-27 21:55:31] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 21:55:38] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:01:16] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:01:27] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:03:09] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:03:41] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:03:44] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:03:59] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:05:11] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:05:27] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:05:32] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:06:01] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:06:26] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:09:04] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:17:25] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:18:13] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:18:15] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:18:21] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:18:21] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:18:42] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:18:54] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:19:13] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:19:18] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:19:20] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:19:22] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:19:26] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:19:29] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:19:33] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:22:30] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:22:36] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:23:05] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:23:11] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:23:43] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:23:47] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:24:11] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:24:15] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:24:25] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:24:29] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:24:32] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:24:36] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:24:44] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:24:48] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:24:52] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:24:57] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:25:17] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:25:21] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:26:23] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:26:31] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:26:33] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:26:35] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:28:17] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:28:24] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:28:27] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:28:59] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:29:05] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:29:45] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:29:51] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:29:53] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:30:00] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:33:44] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:34:05] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:34:41] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:38:11] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:38:17] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-27 22:41:00] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
