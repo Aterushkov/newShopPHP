@@ -23,7 +23,7 @@ class Cart extends AppModel {
         }else{
             $_SESSION['cart'][$ID] = [
                 'gty' => $gty,
-                '$title' => $title,
+                'title' => $title,
                 'alias' => $product->alias,
                 'price' => $price * $_SESSION['cart.currency']['value'],
                 'img' => $product->img,
@@ -31,5 +31,12 @@ class Cart extends AppModel {
         }
         $_SESSION['cart.gty'] = isset($_SESSION['cart.gty']) ? $_SESSION['cart.gty'] + $gty : $gty;
         $_SESSION['cart.sum'] = isset($_SESSION['cart.sum']) ? $_SESSION['cart.sum'] + $gty * ($price * $_SESSION['cart.currency']['value']) : $gty * ($price * $_SESSION['cart.currency']['value']);
+    }
+    public function deleteItem($id){
+        $gtyMinus = $_SESSION['cart'][$id]['gty'];
+        $sumMinus = $_SESSION['cart'][$id]['gty']*$_SESSION['cart'][$id]['price'];
+        $_SESSION['cart.gty']-=$gtyMinus;
+        $_SESSION['cart.sum']-=$sumMinus;
+        unset($_SESSION['cart'][$id]);
     }
 }

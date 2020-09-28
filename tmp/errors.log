@@ -472,3 +472,19 @@
 -------------------------
 [2020-09-27 22:41:00] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
 -------------------------
+[2020-09-28 19:32:41] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-28 21:11:05] Текст ошибки: контроллер app\controllers\CategoryController не найден| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:35
+-------------------------
+[2020-09-28 21:11:38] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-28 21:18:30] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-28 21:27:08] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-28 21:27:10] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-28 22:18:05] Текст ошибки: Метод app\controllers\CartController::deleteAction не найден| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:32
+-------------------------
+[2020-09-28 22:29:37] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
