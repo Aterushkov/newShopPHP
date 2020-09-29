@@ -488,3 +488,11 @@
 -------------------------
 [2020-09-28 22:29:37] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
 -------------------------
+[2020-09-29 09:10:09] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-29 09:18:44] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-09-29 09:18:46] Текст ошибки: Call to undefined function app\controllers\uset()| Файл: C:\OpenServer\domains\newShopPHP\app\controllers\CartController.php| Строка:50
+-------------------------
+[2020-09-29 09:41:26] Текст ошибки: Class 'app\controllers\Cart' not found| Файл: C:\OpenServer\domains\newShopPHP\app\controllers\CurrencyController.php| Строка:13
+-------------------------

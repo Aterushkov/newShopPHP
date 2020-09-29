@@ -60,6 +60,18 @@ function getCart(){
   });
 }
 // Cart end
+function clearCart(){
+  $.ajax({
+    url:'/cart/clear',
+    type:'GET',
+    success: function (res){
+      showCart(res);
+    },
+    error: function (){
+      alert("Ошибонька");
+    }
+  });
+}
 $('#currency').change(function(){
   window.location = 'currency/change?curr=' + $(this).val();
 });
