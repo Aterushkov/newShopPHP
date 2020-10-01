@@ -586,3 +586,13 @@
 -------------------------
 [2020-09-29 19:38:03] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
 -------------------------
+[2020-10-01 22:47:00] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-01 23:02:42] Текст ошибки: Class 'ishop\App' not found| Файл: C:\OpenServer\domains\newShopPHP\app\views\Search\index.php| Строка:20
+-------------------------
+[2020-10-01 23:03:06] Текст ошибки: Class 'tavhop\App' not found| Файл: C:\OpenServer\domains\newShopPHP\app\views\Search\index.php| Строка:20
+-------------------------
+[2020-10-01 23:03:06] Текст ошибки: Class 'tavhop\App' not found| Файл: C:\OpenServer\domains\newShopPHP\app\views\Search\index.php| Строка:20
+-------------------------
+[2020-10-01 23:04:19] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
