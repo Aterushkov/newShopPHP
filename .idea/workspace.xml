@@ -21,13 +21,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8fe991-4f61-4505-9767-cb83cfa28fd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/Search/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/Category/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/tavshop/core/libs/Pagination.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/SearchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/SearchController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/d4861cc16ee07f776f07c63afe3a4791.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/d4861cc16ee07f776f07c63afe3a4791.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/tavshop/core/libs/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/tavshop/core/libs/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/tavshop/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/tavshop/core/Router.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +84,8 @@
       <workItem from="1601359870702" duration="2668000" />
       <workItem from="1601394769171" duration="2680000" />
       <workItem from="1601407309133" duration="49000" />
-      <workItem from="1601581686398" duration="1303000" />
+      <workItem from="1601581686398" duration="1554000" />
+      <workItem from="1601920984047" duration="6533000" />
     </task>
     <task id="LOCAL-00001" summary="27.09">
       <created>1601225116035</created>
@@ -125,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601362506269</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="01.10 Search end">
+      <created>1601583147878</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601583147878</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +170,8 @@
     <MESSAGE value="27.09" />
     <MESSAGE value="28.09" />
     <MESSAGE value="29.09 Cart end" />
-    <option name="LAST_COMMIT_MESSAGE" value="29.09 Cart end" />
+    <MESSAGE value="01.10 Search end" />
+    <option name="LAST_COMMIT_MESSAGE" value="01.10 Search end" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1032" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601223446552">
@@ -170,25 +182,36 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="930" y="214" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601396257636" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1601362503827">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1601583145541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601362503827" />
-    <state x="1207" y="246" key="NewPhpClassDialog" timestamp="1601395813024">
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601583145541" />
+    <state x="1207" y="246" key="NewPhpClassDialog" timestamp="1601924394951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1207" y="246" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601395813024" />
-    <state x="1274" y="446" key="NewPhpFileDialog" timestamp="1601582276567">
+    <state x="1207" y="246" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601924394951" />
+    <state x="1274" y="446" key="NewPhpFileDialog" timestamp="1601922939301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1274" y="446" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601582276567" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601362523810">
+    <state x="1274" y="446" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601922939301" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601583153085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601362523810" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601583153085" />
     <state x="1096" y="242" key="run.anything.popup" timestamp="1601318286764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1096" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601318286764" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/views/Category/view.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

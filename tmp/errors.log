@@ -596,3 +596,77 @@
 -------------------------
 [2020-10-01 23:04:19] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
 -------------------------
+[2020-10-05 21:09:24] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 21:11:18] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a' in 'where clause'| Файл: C:\OpenServer\domains\newShopPHP\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:194
+-------------------------
+[2020-10-05 21:11:53] Текст ошибки: Не найден вид C:\OpenServer\domains\newShopPHP/app/views/Category/view.php| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\base\View.php| Строка:38
+-------------------------
+[2020-10-05 21:19:26] Текст ошибки: Не найден вид C:\OpenServer\domains\newShopPHP/app/views/Category/view.php| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\base\View.php| Строка:38
+-------------------------
+[2020-10-05 21:28:28] Текст ошибки: Не найден вид C:\OpenServer\domains\newShopPHP/app/views/Category/view.php| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\base\View.php| Строка:38
+-------------------------
+[2020-10-05 21:28:46] Текст ошибки: Не найден вид C:\OpenServer\domains\newShopPHP/app/views/Category/view.php| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\base\View.php| Строка:38
+-------------------------
+[2020-10-05 21:31:57] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '11,13,12,14,2  -- keep-cache' at line 1| Файл: C:\OpenServer\domains\newShopPHP\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:194
+-------------------------
+[2020-10-05 21:32:29] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '11,13,12,14,2  -- keep-cache' at line 1| Файл: C:\OpenServer\domains\newShopPHP\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:194
+-------------------------
+[2020-10-05 21:37:10] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '11,13,12,14,2  -- keep-cache' at line 1| Файл: C:\OpenServer\domains\newShopPHP\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:194
+-------------------------
+[2020-10-05 21:38:00] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '11,13,12,14,2  -- keep-cache' at line 1| Файл: C:\OpenServer\domains\newShopPHP\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:194
+-------------------------
+[2020-10-05 21:38:29] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '{$ids}  -- keep-cache' at line 1| Файл: C:\OpenServer\domains\newShopPHP\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:194
+-------------------------
+[2020-10-05 21:39:05] Текст ошибки: syntax error, unexpected '$products' (T_VARIABLE)| Файл: C:\OpenServer\domains\newShopPHP\app\controllers\CategoryController.php| Строка:24
+-------------------------
+[2020-10-05 21:39:14] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '11,13,12,14,2  -- keep-cache' at line 1| Файл: C:\OpenServer\domains\newShopPHP\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:194
+-------------------------
+[2020-10-05 21:39:49] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 21:39:51] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 21:39:57] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 21:40:01] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 21:40:07] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 21:40:32] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 21:40:57] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 21:41:03] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 21:41:03] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 21:43:12] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 21:43:12] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 21:51:25] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 21:51:28] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 21:51:57] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 22:34:46] Текст ошибки: Class 'app\controllers\App' not found| Файл: C:\OpenServer\domains\newShopPHP\app\controllers\CategoryController.php| Строка:20
+-------------------------
+[2020-10-05 22:35:25] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 22:35:46] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 22:54:28] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 22:54:30] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 22:54:36] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 22:54:40] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 22:55:00] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 22:55:05] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-05 22:55:09] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
