@@ -24,14 +24,19 @@
 									<? new \app\widgets\currency\Currency();?>
 							</select>
 						</div>
-						<div class="box1">
-							<select tabindex="4" class="dropdown">
-								<option value="" class="label">English :</option>
-								<option value="1">English</option>
-								<option value="2">French</option>
-								<option value="3">German</option>
-							</select>
-						</div>
+                        <div class="btn-group" >
+                            <a class="dropdown-toggle " data-toggle="dropdown">Аккаунт
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <? if(!empty($_SESSION)):?>
+                                    <li><a href="">Добро пожаловать, <?=h($_SESSION['user']['name']);?></a></li>
+                                    <li><a href="user/logout">Выход</a></li>
+                                <? else:?>
+                                    <li><a href="user/login">Вход</a></li>
+                                    <li><a href="user/signup">Регистрация</a></li>
+                                <? endif;?>
+                            </ul>
+                        </div>
 						<div class="clearfix"></div>
 					</div>
 				</div>
@@ -94,6 +99,22 @@
 	</div>
 	<!--bottom-header-->
 	<div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <?if(isset($_SESSION['error'])):?>
+                    <div class="alert alert-danger">
+                        <? echo $_SESSION['error']; unset($_SESSION['error']);?>
+                    </div>
+                    <?endif;?>
+                    <?if(isset($_SESSION['success'])):?>
+                        <div class="alert alert-success">
+                            <? echo $_SESSION['success']; unset($_SESSION['success']);?>
+                        </div>
+                    <?endif;?>
+                </div>
+            </div>
+        </div>
 
 		<?= $content;?>
 	</div>
@@ -189,6 +210,7 @@
     </script>
 	<script src="/js/jquery-1.11.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/validator.js"></script>
     <script src="js/typeahead.bundle.js"></script>
 	<script src="js/imagezoom.js"></script>
 	<script defer src="js/jquery.flexslider.js"></script>
