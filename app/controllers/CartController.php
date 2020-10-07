@@ -5,12 +5,14 @@ namespace app\controllers;
 
 
 use app\models\Cart;
+use app\models\Order;
+use app\models\User;
 
 class CartController extends AppController
 {
  public function addAction(){
      $id = !empty($_GET['id']) ? (int)($_GET['id']) : null;
-     $gty = !empty($_GET['gty']) ? (int)($_GET['gty']) : null;
+     $qty = !empty($_GET['qty']) ? (int)($_GET['qty']) : null;
      $mod_id = !empty($_GET['mod']) ? (int)($_GET['mod']) : null;
      $mod = null;
      if($id){
@@ -24,7 +26,7 @@ class CartController extends AppController
 
      }
      $cart =new Cart();
-     $cart->addToCart($product,$gty, $mod);
+     $cart->addToCart($product,$qty, $mod);
      if($this->isAjax()){
          $this->loadView('cart_modal');
      }
@@ -48,11 +50,42 @@ class CartController extends AppController
 
     public function clearAction(){
         unset($_SESSION['cart']);
-        unset($_SESSION['cart.gty']);
+        unset($_SESSION['cart.qty']);
         unset($_SESSION['cart.sum']);
         unset($_SESSION['cart.currency']);
         if($this->isAjax()){
             $this->loadView('cart_modal');
+        }
+        redirect();
+    }
+    public function viewAction(){
+     $this->setMeta('Корзина');
+    }
+    public function checkoutAction(){
+        if(!empty($_POST)){
+            //регистрация пользователя
+            if(!User::checkAuth()){
+                $user = new User();
+                $data = $_POST;
+                $user->load($data);
+                if(!$user->validate($data) || !$user->checkUnique()){
+                    $user->getErrors();
+                    $_SESSION['form_data'] = $data;
+                    redirect();
+                }else{
+                    $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
+                    if(!$user_id = $user->save('user')) {
+                        $_SESSION['error'] = 'Ой!';
+                        redirect();
+                    }
+                }
+            }
+            //сохраняем заказ
+            $data['user_id'] = isset($user_id) ? $user_id : $_SESSION['user']['id'];
+            $data['note'] = !empty($_POST['note']) ? $_POST['note'] : '';
+            $user_email = isset($_SESSION['user']['email']) ? $_SESSION['user']['email'] : $_POST['email'];
+            $order_id = Order::saveOrder($data);
+            Order::mailOrder($order_id, $user_email);
         }
         redirect();
     }

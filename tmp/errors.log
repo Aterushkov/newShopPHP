@@ -726,3 +726,17 @@
 -------------------------
 [2020-10-06 14:06:10] Текст ошибки: Не найден вид C:\OpenServer\domains\newShopPHP/app/views/User/logout.php| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\base\View.php| Строка:38
 -------------------------
+[2020-10-06 21:14:45] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-06 21:32:34] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-07 18:59:26] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-07 19:15:07] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-07 19:51:00] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null| Файл: C:\OpenServer\domains\newShopPHP\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:194
+-------------------------
+[2020-10-07 19:57:42] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-07 19:57:43] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------

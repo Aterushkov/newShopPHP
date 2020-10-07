@@ -5,7 +5,7 @@ namespace app\models;
 use tavshop\App;
 
 class Cart extends AppModel {
-    public function addToCart($product, $gty=1, $mod=null){
+    public function addToCart($product,$qty=1, $mod=null){
         if(!isset($_SESSION['cart.currency'])){
             $_SESSION['cart.currency'] = App::$app->getProperty('currency');
         }
@@ -19,23 +19,23 @@ class Cart extends AppModel {
             $price = $product->price;
         }
         if(isset($_SESSION['cart'][$ID])){
-            $_SESSION['cart'][$ID]['gty'] += $gty;
+            $_SESSION['cart'][$ID]['qty'] += $qty;
         }else{
             $_SESSION['cart'][$ID] = [
-                'gty' => $gty,
+                'qty' => $qty,
                 'title' => $title,
                 'alias' => $product->alias,
                 'price' => $price * $_SESSION['cart.currency']['value'],
                 'img' => $product->img,
             ];
         }
-        $_SESSION['cart.gty'] = isset($_SESSION['cart.gty']) ? $_SESSION['cart.gty'] + $gty : $gty;
-        $_SESSION['cart.sum'] = isset($_SESSION['cart.sum']) ? $_SESSION['cart.sum'] + $gty * ($price * $_SESSION['cart.currency']['value']) : $gty * ($price * $_SESSION['cart.currency']['value']);
+        $_SESSION['cart.qty'] = isset($_SESSION['cart.qty']) ? $_SESSION['cart.qty'] + $qty : $qty;
+        $_SESSION['cart.sum'] = isset($_SESSION['cart.sum']) ? $_SESSION['cart.sum'] + $qty * ($price * $_SESSION['cart.currency']['value']) : $qty * ($price * $_SESSION['cart.currency']['value']);
     }
     public function deleteItem($id){
-        $gtyMinus = $_SESSION['cart'][$id]['gty'];
-        $sumMinus = $_SESSION['cart'][$id]['gty']*$_SESSION['cart'][$id]['price'];
-        $_SESSION['cart.gty']-=$gtyMinus;
+        $qtyMinus = $_SESSION['cart'][$id]['qty'];
+        $sumMinus = $_SESSION['cart'][$id]['qty']*$_SESSION['cart'][$id]['price'];
+        $_SESSION['cart.qty']-=$qtyMinus;
         $_SESSION['cart.sum']-=$sumMinus;
         unset($_SESSION['cart'][$id]);
     }

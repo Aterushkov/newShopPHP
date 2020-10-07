@@ -29,12 +29,12 @@ $('#typeahead').bind('typeahead:select', function(ev, suggestion) {
 $('body').on('click','.add-to-cart-link', function(e){
   e.preventDefault();
   let id = $(this).data('id');
-  let gty = $('.quantity input').val() ? $('.quantity input').val() : 1 ;
+  let qty = $('.quantity input').val() ? $('.quantity input').val() : 1 ;
   let mod = $('.available select').val();
 
   $.ajax({
     url:'/cart/add',
-    data:{id:id, gty:gty,mod:mod},
+    data:{id:id, qty:qty,mod:mod},
     type:'GET',
     success: function (res){
       showCart(res);

@@ -15,14 +15,14 @@
                     <tr>
                         <td><a href="product/<?=$item['alias']?>"><img src="images/<?=$item['img'];?>" alt="<?=$item['title'];?>"></a></td>
                         <td><a href="product/<?=$item['alias'];?>"><?=$item['title'];?></td>
-                        <td><?=$item['gty'];?></td>
+                        <td><?=$item['qty'];?></td>
                         <td><?=$item['price'];?></td>
                         <td><span data-id="<?=$id;?>" class="glyphicon glyphicon-remove text-danger del-item" aria-hidden="true"></span></td>
                     </tr>
                <? endforeach;?>
                    <tr>
                        <td>Итого:</td>
-                       <td colspan="4" class="text-right cart-qty"><?=$_SESSION['cart.gty'];?></td>
+                       <td colspan="4" class="text-right cart-qty"><?=$_SESSION['cart.qty'];?></td>
                    </tr>
                    <tr>
                        <td>На сумму:</td>

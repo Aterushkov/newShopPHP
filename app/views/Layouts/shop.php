@@ -28,7 +28,7 @@
                             <a class="dropdown-toggle " data-toggle="dropdown">Аккаунт
                             <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <? if(!empty($_SESSION)):?>
+                                <? if(!empty($_SESSION['user'])):?>
                                     <li><a href="">Добро пожаловать, <?=h($_SESSION['user']['name']);?></a></li>
                                     <li><a href="user/logout">Выход</a></li>
                                 <? else:?>
