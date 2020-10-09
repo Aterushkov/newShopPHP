@@ -1,7 +1,7 @@
 /* Filters */
 $('body').on('change', '.w_sidebar input', function(){
-  let checked = $('.w_sidebar input:checked');
-  let data = '';
+  var checked = $('.w_sidebar input:checked'),
+      data = '';
   checked.each(function () {
     data += this.value + ',';
   });
@@ -18,6 +18,11 @@ $('body').on('change', '.w_sidebar input', function(){
       success: function(res){
         $('.preloader').delay(500).fadeOut('slow', function(){
           $('.product-one').html(res).fadeIn();
+          var url = location.search.replace(/filter(.+?)(&|$)/g, ''); //$2
+          var newURL = location.pathname + url + (location.search ? "&" : "?") + "filter=" + data;
+          newURL = newURL.replace('&&', '&');
+          newURL = newURL.replace('?&', '?');
+          history.pushState({}, '', newURL);
         });
       },
       error: function () {
