@@ -1,5 +1,35 @@
+/* Filters */
+$('body').on('change', '.w_sidebar input', function(){
+  let checked = $('.w_sidebar input:checked');
+  let data = '';
+  checked.each(function () {
+    data += this.value + ',';
+  });
+  if(data){
+    $.ajax({
+      url: location.href,
+      data: {filter: data},
+      type: 'GET',
+      beforeSend: function(){
+        $('.preloader').fadeIn(300, function(){
+          $('.product-one').hide();
+        });
+      },
+      success: function(res){
+        $('.preloader').delay(500).fadeOut('slow', function(){
+          $('.product-one').html(res).fadeIn();
+        });
+      },
+      error: function () {
+        alert('Ошибка!');
+      }
+    });
+  }else{
+    window.location = location.pathname;
+  }
+});
 /* Search */
-var products = new Bloodhound({
+let products = new Bloodhound({
   datumTokenizer: Bloodhound.tokenizers.whitespace,
   queryTokenizer: Bloodhound.tokenizers.whitespace,
   remote: {

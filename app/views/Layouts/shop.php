@@ -201,6 +201,9 @@
             </div>
         </div>
     </div>
+
+    <div class="preloader"><img src="images/ring.svg" alt=""></div>
+
     <? $curr= \tavshop\App::$app->getProperty('currency');?>
     <script>
         let path = '<?=PATH;?>';

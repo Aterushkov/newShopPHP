@@ -740,3 +740,25 @@
 -------------------------
 [2020-10-07 19:57:43] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
 -------------------------
+[2020-10-07 21:50:15] Текст ошибки: Address in mailbox given [] does not comply with RFC 2822, 3.6.2.| Файл: C:\OpenServer\domains\newShopPHP\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\MailboxHeader.php| Строка:355
+-------------------------
+[2020-10-09 20:53:56] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-09 20:54:50] Текст ошибки: Class 'ishop\Cache' not found| Файл: C:\OpenServer\domains\newShopPHP\app\widgets\filter\Filter.php| Строка:19
+-------------------------
+[2020-10-09 20:54:50] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-09 20:54:50] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-09 20:54:50] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-09 21:19:29] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-09 21:35:41] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-09 21:35:59] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-09 21:42:42] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-09 21:42:43] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
