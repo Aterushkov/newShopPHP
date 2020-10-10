@@ -586,8 +586,8 @@
 <!-- ./wrapper -->
 
 <script>
-    var path = '<?=PATH;?>',
-        adminpath = '<?=ADMIN;?>';
+    let path = '<?=PATH;?>';
+    let adminpath = '<?=ADMIN;?>';
 </script>
 
 <!-- jQuery 3 -->
