@@ -1,0 +1,34 @@
+[2020-10-10 21:21:17] Текст ошибки: контроллер app\controllers\AdminController не найден| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:35
+-------------------------
+[2020-10-10 21:23:15] Текст ошибки: контроллер app\controllers\AdminController не найден| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:35
+-------------------------
+[2020-10-10 21:23:56] Текст ошибки: контроллер app\controllers\AdminController не найден| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:35
+-------------------------
+[2020-10-10 21:24:05] Текст ошибки: контроллер app\controllers\AdminController не найден| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:35
+-------------------------
+[2020-10-10 21:24:07] Текст ошибки: контроллер app\controllers\AdminController не найден| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:35
+-------------------------
+[2020-10-10 21:24:10] Текст ошибки: контроллер app\controllers\AdminController не найден| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:35
+-------------------------
+[2020-10-10 21:25:20] Текст ошибки: контроллер app\controllers\admintav\MainController не найден| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:35
+-------------------------
+[2020-10-10 21:25:32] Текст ошибки: Не найден шаблон admin| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\base\View.php| Строка:45
+-------------------------
+[2020-10-10 21:25:51] Текст ошибки: Не найден шаблон admin| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\base\View.php| Строка:45
+-------------------------
+[2020-10-10 21:25:51] Текст ошибки: Страница не найдена| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:38
+-------------------------
+[2020-10-10 21:26:31] Текст ошибки: Не найден шаблон admin| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\base\View.php| Строка:45
+-------------------------
+[2020-10-10 21:26:32] Текст ошибки: Не найден шаблон admin| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\base\View.php| Строка:45
+-------------------------
+[2020-10-10 21:26:32] Текст ошибки: Не найден шаблон admin| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\base\View.php| Строка:45
+-------------------------
+[2020-10-10 21:27:06] Текст ошибки: Не найден шаблон admin| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\base\View.php| Строка:45
+-------------------------
+[2020-10-10 21:27:09] Текст ошибки: Не найден шаблон admin| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\base\View.php| Строка:45
+-------------------------
+[2020-10-10 21:31:04] Текст ошибки: Не найден шаблон admin| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\base\View.php| Строка:45
+-------------------------
+[2020-10-10 21:43:36] Текст ошибки: контроллер app\controllers\admin\OrderController не найден| Файл: C:\OpenServer\domains\newShopPHP\vendor\tavshop\core\Router.php| Строка:35
+-------------------------
